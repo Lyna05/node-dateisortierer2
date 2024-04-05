@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "start": "node ./dist/index.js",
+    "startHausaufgabe": "node ./dist/HA3_05.04.2024.js",
+    "startHausaufgabe2": "node ./dist/HA2_05.04.2024.js",
+    "startHausaufgabe4": "node ./dist/HA4_05.04.2024.js",
     "dev": "npm run build && npm run start"
   },
   "repository": {
@@ -20,6 +23,7 @@
   },
   "homepage": "https://github.com/Lucas-Bur/node-dateisortierer#readme",
   "devDependencies": {
-    "@types/node": "^20.12.4"
+    "@types/node": "^20.12.4",
+    "typescript": "^5.4.4"
   }
 }
